@@ -6,14 +6,14 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-	dependencies = [
-		('todo', '0002_auto_20190916_0541'),
-	]
+    dependencies = [
+        ('todo', '0002_auto_20190916_0541'),
+    ]
 
-	operations = [
-		migrations.AddField(
-			model_name='todo',
-			name='Added',
-			field=models.DateTimeField(default=datetime.datetime(2019, 9, 16, 5, 48, 37, 98681)),
-		),
-	]
+    operations = [
+        migrations.AddField(
+            model_name='todo',
+            name='Added',
+            field=models.DateTimeField(default=datetime.datetime(2019, 9, 16, 5, 48, 37, 98681)),
+        ),
+    ]
