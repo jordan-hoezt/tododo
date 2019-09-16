@@ -37,7 +37,7 @@ INSTALLED_APPS = [
 	'django.contrib.sessions',
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
-	'restframework',					# Rest framework
+	'rest_framework',					# Rest framework
 	'corsheaders',						# CORS
 	'todo',								# Todo App
 ]
@@ -125,6 +125,6 @@ STATIC_URL = '/static/'
 
 # Whitelist URL
 # Whitelist the urls where our frontend will served
-CORS_ORIGIN_WHITELIST = (
-	'localhost:3000/'
-)
+CORS_ORIGIN_WHITELIST = [
+	'https://localhost:3000'
+]
